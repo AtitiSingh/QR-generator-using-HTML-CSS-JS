@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #75e6da, #d4f1f4);
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    position: relative;
+    top: -19px;
+    width: 25rem;
+    height: 32rem;
+    border-radius: 1.8rem;
+    background: #ffffff;
+    box-shadow: 0 0 1.4rem #05445e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    position: absolute;
+    top: 2.3rem;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 600;
+    color: #51575a;
+    letter-spacing: 1px;
+}
+.qrcode-frame{
+    position: absolute;
+    top: 5rem;
+    width: 17rem;
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #75e6da, #d4f1f4);
+    box-shadow: 4px 4px 15px #189ab4;
+    border-radius: 1.8rem;
+}
+.qrcode-img{
+    width: 16rem;
+    height: 16rem;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.8rem;
+}
+img{
+    width: 14rem;
+    height: 14rem;
+}
+h2{
+    position: absolute;
+    bottom: 6rem;
+    color: #05445e;
+    font-family: cursive;
+}
+.input{
+    position: absolute;
+    bottom: 2.5rem;
+    width: 21rem;
+    height: 3rem;
+    background: linear-gradient(45deg, #75e6da, #d4f1f4);
+    box-shadow: 4px 4px 15px #189ab4;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-text{
+    position: absolute;
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+.btns{
+    position: absolute;
+    bottom: 2rem;
+    width: 25rem;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width: 10rem;
+    height: 2rem;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 11px;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 16px;
+    background-color: #05445e;
+    box-shadow: 0 0 1.4rem #05445e;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #05445e73;
+    color: #05445e;
+}
